@@ -1,0 +1,165 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;700&display=swap');
+
+* {
+    box-sizing: border-box;
+}
+body{
+  height: 100%;
+}
+
+/*Navbar & Header & content & footer*/
+.ant-layout-header{
+  height: 100px;
+}
+.navbar-expand{
+  justify-content: none !important;
+  justify-content: initial !important;
+  justify-content: revert !important;
+}
+ .ant-layout-footer{
+ padding: 5px !important;
+}
+
+/* .ant-layout-footer{
+  text-align: center;
+  position: fixed;
+  bottom: 0;
+  width: 100%;
+} */
+.ant-layout {
+  height: 100vh !important;
+}
+.site-layout-content {
+  height: 100%;
+  padding: 10px 24px ;
+  background: #fff;
+}
+
+.table-row-btn{
+
+}
+.btn-check-out{
+  border-color: #ee5920;
+  background-color: #ee5920 !important;
+  padding: 5px;
+}
+
+.vehicleA {
+  width: 30px;
+  height: 100px;
+  background: blue;
+  border-radius: 50%;
+  position: absolute;
+  top: -100px;
+  right: -155px;
+}
+
+::placeholder { /* Chrome, Firefox, Opera, Safari 10.1+ */
+  color: #000;
+  opacity: 1; /* Firefox */
+  font-style: italic;
+}
+
+.body2 {
+    padding: 0;
+    margin: 0;
+    height: 100vh;
+    display: flex;
+    font-family: poppins;
+    position: relative;
+}
+
+.circles {
+    width: 400px;
+    height: 400px;
+    margin: auto;
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+}
+
+.circle1 {
+    width: 300px;
+    height: 300px;
+    background: linear-gradient(45deg, #ff0099, #7a0ed6);
+    border-radius: 50%;
+    position: absolute;
+    top: -100px;
+    right: -155px;
+}
+
+.circle2 {
+    width: 200px;
+    height: 200px;
+    background: linear-gradient(45deg, #ff237b, #f64838);
+    border-radius: 50%;
+    position: absolute;
+    bottom: -90px;
+    left: -70px;
+}
+
+.card{
+    opacity: 0.7;
+    background-color: #201717 !important
+}
+
+.login-form input {
+    opacity: 1 !important;
+    border: 1px solid rgba(255, 255, 255, 0.2);
+    border-radius: 6px;
+    padding: 14px 0px 14px 10px;
+    margin-bottom: 15px;
+}
+
+.login-form input:focus {
+    outline: none;
+    border-color: #fff;
+}
+
+.login-form button {
+    color: #000;
+    background-color: #fff;
+    border: none;
+    border-radius: 6px;
+    margin-top: 10px;
+    font-size: 16px;
+    font-weight: bold;
+}
+
+.outer-login-container {
+  position: absolute;
+  transform: translate(-50%,-50%);
+  top: 50%;
+  left: 50%;
+}
+
+.login-form {
+  background: rgba(255,255,255,0.3) !important;
+  padding: 3em;
+  height: 500px;
+  border-left: 1px solid rgba(255,255,255,0.3);
+  border-top: 1px solid rgba(255,255,255,0.3);
+  backdrop-filter: blur(10px);
+  box-shadow: 20px 20px 40px -6px rgba(0,0,0,0.2);
+  text-align: center;
+  position: relative;
+}
+
+.login-form p {
+  font-family: poppins;
+  font-weight: 500;
+  color: #fff;
+  opacity: 0.7;
+  font-size: 1.4rem;
+  margin-top: 0;
+  margin-bottom: 40px;
+  text-shadow: 2px 2px 4px rgba(0,0,0,0.2);
+}
+  
+ 
+.ant-table-thead > tr > th, .ant-table-tbody > tr > td, .ant-table tfoot > tr > th, .ant-table tfoot > tr > td {
+  padding: 5px 5px;
+}
+

@@ -1,0 +1,168 @@
+*, *:before, *:after {
+  box-sizing: border-box;
+}
+html {
+  font-size: 16px;
+}
+.car-park {
+  margin: 10px auto;
+  /* max-width: 600px; */
+  min-height: 500px;
+  background-color: #333;
+  overflow-x: auto;
+}
+.car-operation {
+  margin: 0px auto;
+  min-width: 200px;
+  min-height: 500px;
+  /* background-color: #d8d8d8; */
+}
+.line-label{
+  color: #2f984e;
+  font-size: small;
+  height: 20px;
+  text-align: center;
+}
+/* .vehicle-type-radio-group{
+    gap: 4px;
+    border: 1px solid #ccc;
+    padding: 10px;
+    border-radius: 5px;
+} */
+/* .ant-radio-group{
+  width: 100px;
+} */
+
+
+.license-plate{
+  font-size:xx-small;
+  font-weight: bold;
+}
+
+.line{
+  vertical-align:top;
+}
+
+.path-div{
+  width:45px;
+  position:relative; 
+  height: 360px;
+}
+
+.line-part{
+  width:45px;
+  position:relative; 
+  background-color:#514e4e;
+}
+
+.vehicle-unit-1{height:60px;}
+.vehicle-unit-2{height:120px;}
+.vehicle-unit-3{height:180px;}
+.vehicle-unit-4{height:240px;}
+.vehicle-unit-5{height:300px;}
+.vehicle-unit-6{height:360px;}
+
+.CATEGORYA{
+  background-color:#ffd73e;
+  width:100%;
+  height:60px;
+  padding:5px auto;
+  border:2px solid #514e4e;
+  border-radius:5px;
+}
+
+.CATEGORYB{
+  background-color:#52c9ec;
+  width:100%;
+  height:72px;
+  padding:5px auto;
+  border:2px solid #514e4e;
+  border-radius:5px;
+}
+
+.CATEGORYC{
+  background-color:#f1860f;
+  width:100%;
+  height:120px;
+  padding:5px auto;
+  border:2px solid #514e4e;
+  border-radius:5px;
+}
+
+.typeEmptySpace{
+  background-color:#514e4e;
+  width:100%;
+  padding:5px auto;
+  border:2px solid #514e4e;
+  border-radius:5px;
+}
+
+
+.sectionContainer .lineContainer{
+  border-spacing:0px;  
+}
+.sectionContainer {
+  height:80%;
+  border-left:5px solid #333;
+  border-right:5px solid #333;
+}
+.lineContainer {
+  width:100%;
+  height:100%;
+}
+.path{
+ width:60px;
+ background-color:#333; 
+}
+.section{
+  /* background-color:#72fbab; */
+}
+
+/* .second-line{
+  border-left: 1px solid black;
+} */
+
+
+
+.exit {
+  position: relative;
+  height: 40px;
+}
+.exit:before, .exit:after {
+  content: "EXIT";
+  font-size: 14px;
+  line-height: 18px;
+  padding: 0px 2px;
+  font-family: "Arial Narrow", Arial, sans-serif;
+  display: block;
+  position: absolute;
+  background: green;
+  color: white;
+  top: 50%;
+  transform: translate(0, -50%);
+}
+.exit:before {
+  left: 0;
+}
+.exit:after {
+  right: 0;
+}
+
+.fuselage {
+  border-right: 5px solid #d8d8d8;
+  border-left: 5px solid #d8d8d8;
+}
+
+ol {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+
+
+.park label:hover {
+  cursor: pointer;
+  box-shadow: 0 0 0px 2px #5C6AFF;
+}
+
